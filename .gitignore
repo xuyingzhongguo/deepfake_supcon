@@ -141,4 +141,5 @@ cython_debug/
 .idea/
 
 # Big files
-data_lists/four_datasets_images.txt
+save/
+data_lists
