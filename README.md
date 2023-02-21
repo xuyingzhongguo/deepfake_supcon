@@ -13,6 +13,15 @@ main_linear.py
 ```
 Just remember two trains needed to be conducted.
 
+# Datalist
+It is a .txt file that includes 'image_path label' every line.
+Here is an example:
+```
+FaceForensics++/original_sequences/youtube/c23/face_images/870/frame121.png 0
+FaceForensics++/manipulated_sequences/Deepfakes/c23/face_images/979_875/frame1.png 1
+...
+```
+
 # Download model
 Let me check if I have it.
 
