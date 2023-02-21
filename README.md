@@ -6,7 +6,7 @@ Ying Xu, Kiran Raja, Marius Pedersen
 # Introduction:
 We propose a generalizable detection model that can detect novel and unknown/unseen DeepFakes using a supervised contrastive (SupCon) loss. We obtain the highest accuracy of 78.74% using proposed SupCon model and an accuracy of 83.99% with proposed fusion in a true open-set evaluation scenario where the test class is unknown at the training phase.
 # Framework:
-![Framework](/plots/proposed_approach1_big.png)
+<img src="/plots/proposed_approach1_big.png" alt="Framework" width="700"/>
 
 # How to use:
 ```
