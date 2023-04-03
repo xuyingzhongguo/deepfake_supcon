@@ -179,7 +179,7 @@ def set_loader(opt):
         train_dataset = datasets.ImageFolder(root=opt.data_folder,
                                             transform=TwoCropTransform(train_transform))
     elif opt.dataset == 'deepfakes':
-        train_dataset = MyDataset_wavelet(txt_path=opt.train_list,
+        train_dataset = MyDataset(txt_path=opt.train_list,
                                   transform=TwoCropTransform(train_transform))
     else:
         raise ValueError(opt.dataset)
